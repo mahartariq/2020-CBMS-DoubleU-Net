@@ -53,8 +53,8 @@ if __name__ == "__main__":
     tf.random.set_seed(42)
     create_dir("files")
 
-    train_path = "../1/new_data/train/"
-    valid_path = "../1/new_data/valid/"
+    train_path = "/train/"
+    valid_path = "/valid/"
 
     ## Training
     train_x = sorted(glob(os.path.join(train_path, "image", "*.jpg")))
